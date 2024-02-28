@@ -1,1 +1,42 @@
-venv
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Django related files
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# Static files
+/static/
+
+# User-specific files
+*.idea
+*.vscode
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Environment variables file
+.env
+
+# Ignore generated files
+__generated__/
+
+# Ignore coverage reports
+htmlcov/
+
+# Ignore virtual environment
+venv/
+
+# Ignore pipenv files
+Pipfile
+Pipfile.lock
